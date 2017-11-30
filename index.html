@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Make a Reservation</h1>
+        <form action="https://reservations.travelclick.com/103237?languageid=1" method="GET" target="_blank">
+        <p>
+            <select name="roomtypeid">
+                <option>All Rooms</option>
+                <option value="434575">Deluxe Room</option>
+                <option value="434575">Junior Suite</option>
+                <option value="434575">Deluxe Suite</option>
+                <option value="434575">Premium Suite</option>
+                <option value="434575">Stand Alone Villa</option>
+            </select>
+        </p>
+        <p>
+            <select name="rooms">
+                <option value="1">1 Room</option>
+                <option value="2">2 Rooms</option>
+                <option value="3">3 Rooms</option>
+                <option value="4">4 Rooms</option>
+            </select>
+        </p>
+        <p>
+            <select name="adults">
+                <option value="1">1 Adult</option>
+                <option value="2">2 Adults</option>
+                <option value="3">3 Adults</option>
+                <option value="4">4 Adults</option>
+            </select>
+        </p>
+        <p>
+            <select name="children">
+                <option value="0">0 Children</option>
+                <option value="1">1 Childrens</option>
+            </select>
+        </p>
+<p>
+    Date In
+<input type="text" name="datein" value="11/29/2017">
+</p>
+<p>
+    Date Out 
+<input type="text" name="dateout" value="11/30/2017">
+</p>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
